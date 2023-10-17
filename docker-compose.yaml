@@ -1,0 +1,63 @@
+services:
+  room-booking:
+    build:
+      context: .
+      dockerfile: ./apps/room-booking/Dockerfile
+      target: development
+    command: yarn start:dev room-booking
+    env_file:
+      - ./apps/room-booking/.env
+    ports:
+      - '3000:3000'
+    volumes:
+      - .:/usr/src/app
+  authentication:
+    build:
+      context: .
+      dockerfile: ./apps/authentication/Dockerfile
+      target: development
+    command: yarn start:dev authentication
+    env_file:
+      - ./apps/authentication/.env
+    ports:
+      - '3001:3001'
+    volumes:
+      - .:/usr/src/app
+  payment:
+    build:
+      context: .
+      dockerfile: ./apps/payment/Dockerfile
+      target: development
+    command: yarn start:dev payment
+    env_file:
+      - ./apps/payment/.env
+    volumes:
+      - .:/usr/src/app
+  notification:
+    build:
+      context: .
+      dockerfile: ./apps/notification/Dockerfile
+      target: development
+    command: yarn start:dev notification
+    env_file:
+      - ./apps/notification/.env
+    volumes:
+      - .:/usr/src/app
+  api-gateway:
+    build:
+      context: .
+      dockerfile: ./apps/api-gateway/Dockerfile
+      target: development
+    command: yarn start:dev api-gateway
+    env_file:
+      - ./apps/api-gateway/.env
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - '3004:3004'
+  mongo:
+    image: mongo
+  rabbitmq:
+    image: rabbitmq
+    ports:
+      - 5672:5672

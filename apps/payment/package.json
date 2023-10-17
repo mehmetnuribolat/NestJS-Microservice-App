@@ -1,0 +1,15 @@
+{
+  "name": "@room-booking/payment",
+  "version": "1.0.0",
+  "description": "Payment Service for Room Booking",
+  "main": "index.js",
+  "author": "Mehmet Nuri Bolat",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "nest start --watch",
+    "start:debug": "nest start --debug --watch"
+  },
+  "dependencies": {
+    "stripe": "^13.8.0"
+  }
+}
