@@ -1,6 +1,8 @@
 # NestJS-Microservice-App
 Sample Microservice Application using NestJS, MongoDB, Docker, RabbitMQ and GraphQL.
 
+![Technology-Stack](https://github.com/mehmetnuribolat/NestJS-Microservice-App/assets/145845943/106489ad-db8a-46a2-a060-3bfa8042f5f2)
+
 ## 💻 Tech Stack
 - Environment: [Node.js](https://nodejs.org/)
 - Framework: [Nest.js](https://nestjs.com/)
