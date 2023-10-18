@@ -1,5 +1,5 @@
 # NestJS-Microservice-App
-Sample Microservice Application using NestJS, MongoDB, Docker, RabbitMQ and GraphQL.
+NestJS-Microservice-App is sample Application using NestJS, MongoDB, Docker, RabbitMQ and GraphQL. This project have developed for learning purposes based on Microservice Architecture. This application contains Apollo Federation Gateway for GraphQL SubGraphs which implemented on microservices. The microservices uses RabbitMQ Message Broker to communicate each other.
 
 ![Technology-Stack](https://github.com/mehmetnuribolat/NestJS-Microservice-App/assets/145845943/106489ad-db8a-46a2-a060-3bfa8042f5f2)
 
@@ -17,6 +17,10 @@ Sample Microservice Application using NestJS, MongoDB, Docker, RabbitMQ and Grap
 - Schema Validation: [Joi](https://joi.dev/)
 - Linting: [ESLint](https://eslint.org/)
 - Code Formatting: [Prettier](https://prettier.io/)
+
+## :arrows_clockwise:	System Architecture
+
+![NestJS-RabbitMQ-GraphQL-Mongo-MicroService](https://github.com/mehmetnuribolat/NestJS-Microservice-App/assets/145845943/9ad7fadd-dc76-45ba-be83-a83bf3f1fe36)
 
 ## ⌨️ Development
 
