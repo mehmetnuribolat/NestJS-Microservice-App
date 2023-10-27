@@ -52,4 +52,3 @@ Give a ⭐️ if this project helped you!
 ## 📝 License
 
 This project is under [MIT](https://github.com/mehmetnuribolat/NestJS-Microservice-App/blob/main/LICENSE) license.
-
