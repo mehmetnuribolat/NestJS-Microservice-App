@@ -1,7 +1,7 @@
 # NestJS-Microservice-App
 NestJS-Microservice-App is sample Application using NestJS, MongoDB, Docker, RabbitMQ and GraphQL. This project have developed for learning purposes based on Microservice Architecture. This application contains Apollo Federation Gateway for GraphQL SubGraphs which implemented on microservices. The microservices uses RabbitMQ Message Broker to communicate each other.
 
-![Technology-Stack](https://github.com/mehmetnuribolat/NestJS-Microservice-App/assets/145845943/106489ad-db8a-46a2-a060-3bfa8042f5f2)
+![Technology-Stack](https://github.com/mehmetnuribolat/NestJS-Microservice-App/assets/145845943/a8a44a92-88b1-4c9a-b33c-c52c2b41e5f8)
 
 ## 💻 Tech Stack
 - Environment: [Node.js](https://nodejs.org/)
@@ -20,7 +20,7 @@ NestJS-Microservice-App is sample Application using NestJS, MongoDB, Docker, Rab
 
 ## :arrows_clockwise:	System Architecture
 
-![NestJS-RabbitMQ-GraphQL-Mongo-MicroService](https://github.com/mehmetnuribolat/NestJS-Microservice-App/assets/145845943/9ad7fadd-dc76-45ba-be83-a83bf3f1fe36)
+![NestJS-RabbitMQ-GraphQL-Mongo-MicroService](https://github.com/mehmetnuribolat/NestJS-Microservice-App/assets/145845943/7397cf85-58b2-41d7-aed3-63b2ab500216)
 
 ## ⌨️ Development
 
